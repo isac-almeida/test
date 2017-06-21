@@ -1,0 +1,360 @@
+
+
+main {width: 1200px;
+	margin: 0 auto;}
+
+
+/*Formato desktop*/
+@media screen and (min-width: 680px)
+{
+
+header {width: 90%;}
+
+#login {float: right;
+		margin-right:  400px;
+		padding-top: 30px;}
+#cadastro {float: right;
+			margin-right: 10px; 
+			padding-top: 30px;}
+#loginsil {
+margin:301px;
+position: fixed;}
+
+button {float: right;
+	margin-top:10px ;
+	padding-right: 10px;}
+
+header {float:right;
+		position: fixed;
+		background-color: #272b30;
+		height: 250px;}
+
+header h1 {font-size: 3em;
+			position: fixed;}
+
+section h1 {text-align: center;
+			padding-left: 120px;
+			padding-right: 400px;
+			padding-top: 0px;}
+
+
+#app	{text-align: center;}
+
+
+section p img {padding-right: 200px;
+			padding-left: 200px;}	
+
+	img {float: left;
+		padding-right: 30px;}
+
+	h1 {float: left;
+		padding-left: 200px;
+		padding-right: 200px;
+		text-align: center;
+		font-size: 2em;
+		}
+
+section {float: left;
+		padding-top: 300px;}
+
+		#tito {float:left;
+			padding-top: 0px;
+			text-align: center;
+			padding-left: 350px;
+			height: 100px;}
+
+		#subtit {float: left;
+				text-align: center ;
+				margin: 0 auto;
+				padding-left:100px;
+				padding-top: 80px;}
+
+p { float: left;
+	color:#BDBDBD ;
+	text-align: center;
+	font-size: 1.5em;
+	padding-left: 200px;
+	padding-right: 200px; }
+
+footer {text-align: center;
+	clear:both;
+	position:fixed-button;
+	background-color: #272b30;}
+
+article h1{text-align: center;
+			font-size: 3em;
+			padding-left: 350px;
+			padding-top: 300px;}
+
+figure img{margin:  100px;
+		width: 1000px;
+		height: 750px;
+		padding-top: 150px;}
+
+nav {
+	
+	width:80%; 
+
+	position: fixed;
+	margin-top: 250px;
+	margin-left: 10%;
+	width: 794px;
+	}
+
+#home {float: left;
+	padding-right: 42px;
+	padding-left: 42px;}
+
+#quem {float: left;
+	padding-right: 42px;
+	padding-left: 42px;}
+
+#rec {float: left;
+	padding-right: 42px;
+	padding-left: 42px;}
+
+#foto {float: left;
+	padding-right: 42px;
+	padding-left: 42px;}
+
+#fale {float: left;
+	padding-right: 42px;
+	padding-left: 42px;}
+
+/*Página cadastro*/
+
+.jumbotron {float: left;
+	margin: -340px;
+	margin-top: 350px;
+	}
+
+.menu,
+.sub-menu {
+	    margin: 0;
+    padding: 0;
+}
+.clearfix:after{
+    content: '.';
+    display: block;
+    clear: both;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+    visibility: hidden;
+    overflow: hidden;
+}
+.menu,
+.sub-menu {
+    list-style: none;
+    background: #000;
+}
+.sub-menu {
+    background: #444;
+}
+.menu a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.menu li {
+    position: relative;
+}
+.menu > li {
+    float: left;
+}
+.menu > li:hover {
+    background: #444;
+}
+.menu li:hover > .sub-menu {
+    display: block;
+}
+.sub-menu {
+    display: none;
+    position: absolute;
+    min-width: 150px;
+}
+.sub-menu li:hover {
+    background: #555;
+}
+.sub-menu .sub-menu {
+    top: 0;
+    left: 100%;
+}
+/*pagina da receitas picanha*/
+#picanha h1 p {float: left;
+			text-align: justify-all;
+			font-size: 2em;
+			padding-top: 300px;}
+
+
+#picanha ul {float: left;
+			font-size: 1.5em;
+		}
+
+#fpicanha {float: left;
+				padding-left: 200px;
+				padding-top: 100px;
+				margin: 50px;}
+
+/*pagina da receitas escondinho*/
+#escondidinho img {float: left;
+					}
+
+#escondidinho  h2 { float: left;
+				font-size: 	2em; }
+
+#escondidinho ul  {float: left;
+					font-size: 	1.5em;
+					padding-top: 	100px;
+					}
+
+#escondidinho ol {float:left;
+				font-size: 	1.5em;}
+
+#fescondidinho {float: 	left;
+				width: 410px;
+				height:400px;}
+
+
+
+#i2				{clear: both;}
+
+/*Pagina receita picanha no sal grosso*/
+#psal {float: left;
+		width: 928px;
+		height: 250px;
+		padding-left: 200px;}
+
+#sal h1 {float: left;
+			text-align: justify-all;
+			font-size: 2em;
+			padding-bottom: 30px;}
+
+#sal h2 {float: left ;
+		font-size: 	2em;
+		padding-top: 50px;
+		padding-right: 500px}
+
+#sal ul {float: left;
+					font-size: 	1.5em;
+					padding-top: 50px;
+					padding-bottom: 50px;}
+
+#sal ol {float:left;
+				font-size: 	1.5em;}
+
+/*pagina receitas alcatra*/
+
+#alcatra  h1 {float: left;
+			text-align: justify-all;
+			font-size: 2em;
+			padding-bottom: 30px;}
+
+#alcatra h2 {float: left ;
+		font-size: 	2em;
+		padding-top: 100px;
+		padding-right: 500px}
+
+#alcatra ul {float: left;
+					font-size: 	1.5em;
+					padding-top: 50px;
+					padding-bottom: 50px;}
+
+#alcatra ol {float:left;
+				font-size: 	1.5em;}
+
+#falcatra {float: left;
+			padding-right: 10px;}
+
+/*pagina receitas alcatra- picadinho de alcatra */			
+#picadinho  h1 {float: left;
+			text-align: justify-all;
+			font-size: 2em;
+			padding-bottom: 30px;}
+
+#picadinho h2 {float: left ;
+		font-size: 	2em;
+		padding-top: 100px;
+		padding-right: 500px}
+
+#picadinho ul {float: left;
+					font-size: 	1.5em;
+					padding-top: 50px;
+					padding-bottom: 50px;}
+
+#picadinho ol {float:left;
+				font-size: 	1.5em;}
+
+/*pagina receitas alcatra - farofa*/
+#farofa  h1 {float: left;
+			text-align: justify-all;
+			font-size: 2em;
+			padding-bottom: 50px;}
+
+#farofa h2 {float: left ;
+		font-size: 	2em;
+		padding-bottom:100px;
+		padding-left: 10px;}
+
+#farofa ul {float: left;
+					font-size: 	1.5em;
+					padding-top: 50px;
+					padding-bottom: 50px;}
+
+#farofa ol {float:left;
+				font-size: 	1.5em;}
+
+#farofa h3 {float: left;
+			}
+
+/*pagina fale conosco*/
+#fale2 h2 {float: left ;
+		font-size: 	3em;
+		padding-bottom:10px;
+		padding-top: 300px;}
+
+#fale2 p {font-size: 1.5em;}
+
+#fale2 iframe {padding-left: 200px;
+			}
+
+#facebook {float: left;
+		width: 37px;
+	height: 36px;
+	margin: 0px;
+	}
+
+#youtube {float: left;
+		width: 37px;
+	height: 36px;
+	margin: 0px;}
+
+
+
+#gmais {float: left;
+		width: 37px;
+	height: 36px;
+	margin: 0px;}
+
+
+
+#pinterest {float: left;
+	
+	width: 37px;
+	height: 36px;
+	margin: 0px;}
+
+
+#twitter {float: left;
+	
+	width: 37px;
+	height: 36px;
+	margin: 0px;}
+
+}
+
